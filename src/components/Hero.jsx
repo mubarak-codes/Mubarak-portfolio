@@ -9,7 +9,7 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
      <section className=""> 
       <section className=" container-fluid d-sm-flex d-block mt-4 w-90 align-items-center flex-row-reverse pt-4">
         <div className="profile d-flex align-items-start justify-content-center py-4">
-         <img src="img/MubarakAvatar.jpg" className="rounded-circle w-70 w-75-sm" style={{marginLeft:'27px'}}/>
+         <img src="img/MubarakAvatar.jpg" className="rounded-circle w-70 w-60-sm" style={{marginLeft:'27px'}}/>
          <i className={`bi ${icon} theme-icon mfs-8 click-fade click-grow`} ref={themeRef} style={{marginRight:'0px',}} onClick={()=>{
           setBg((prev)=>{
            if(prev === 'bg-dark'){

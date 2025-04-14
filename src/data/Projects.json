@@ -1,19 +1,12 @@
-{
- "projects": [
+
+ [
   {
    "id": "1",
    "title": "YOUTUBE CLONE",
    "description": "I built a front-end clone of YouTube, focusing on recreating the iconic video platform's user interface. This project showcases my skills in HTML, CSS, and JavaScript.",
    "stack": "HTML + Boostrap + JavaScript",
    "link": "https://you-tube-clone-lilac-alpha.vercel.app/"
-  },
-  {
-   "id": "2",
-   "title": "JOB SPHERE",
-   "description": "I built a job finder website that enables users to search and apply for jobs openings. The website provides a user-friendly interface for job seekers to find and apply for jobs that match their skills and interests.",
-   "stack": "React + Boostrap",
-   "link": "/"
-  },
+  },  
   {
    "id": "3",
    "title": "LIFTING TOGETHER",
@@ -30,4 +23,4 @@
   }
 
  ]
-}
+
