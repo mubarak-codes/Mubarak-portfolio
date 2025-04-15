@@ -10,7 +10,7 @@ const Experience = ()=>{
     <div className="d-grid gap-3 gr-2-sm">{experience.map((experience)=>(
      <div className="bg-success bg-opacity-10 rounded-4 p-3">
       <h3 className="ff-montserrat-bold mfs-4">{experience.role}</h3>
-      <div className="mfs-1 fw-bold">{experience.name}</div>
+      <div className="mfs-1 fw-bold">{experience.name} <span className="mfs-1 opacity-75"><span className="fw-bolder ff-rubik me-1">&middot;</span>{experience.date}</span> </div>
       <div className="opacity-75 mfs-2 py-2">{experience.description}</div>
       <div className="mfs-1 opacity-75"><i className="bi bi-geo-alt me-1 fw-bold"></i>{experience.location}</div>
      </div>
