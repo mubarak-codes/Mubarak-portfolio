@@ -43,9 +43,9 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
           <div className="mfs-2 text-center text-sm-start mx-3 mx-sm-auto my-3">
             I'm a developer with a passion for delivering solutions that drive business growth. With expertise in making modern web apps. I'm dedicated to delivering high quality results that exceed expectations.
           </div>
-          <button className="btn bg-success text-white py-2 rounded-4 w-40 text-center ms-2">
+         <a href="files/Mubarak_Owosheni.pdf" className="row justify-content-center" download><button className="btn bg-success text-white py-2 rounded-4 w-40 text-center ms-2">
             Resume
-          </button>
+         </button></a>
         </div>
       </section>
      </section>
