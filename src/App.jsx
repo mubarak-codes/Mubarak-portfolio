@@ -6,6 +6,7 @@ import {useState, useRef} from 'react'
 import Skills from './components/Skills'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Experience from './components/Experience'
 
 
 
@@ -23,6 +24,7 @@ let [bg, setBg] = usePersistState('theme', 'bg-white')
    <Hero bg={bg} text={text} icon={icon} setText={setText} setBg={setBg} setIcon={setIcon} />
    <Project bg={bg} text={text} />
    <Skills />
+   <Experience />
    <Contact text={text} />
    <Footer />
   </>
