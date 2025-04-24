@@ -35,6 +35,10 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
             <a href="https://x.com/mubarak_codes" target="_blank">
               <i className={`bi bi-twitter-x px-2 ${text} click-grow click-fade`}></i>
             </a>
+            <a href="https://www.linkedin.com/in/mubarak-codes-6768b8361?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+              <i className={`fa-brands fa-linkedin px-2 ${text} click-grow click-fade`}></i>
+            </a>
+
             <a href="https://github.com/mubarak-codes" target="_blank">
               <i className={`fa-brands fa-github px-2 ${text} click-fade click-grow`}></i>
             </a>
