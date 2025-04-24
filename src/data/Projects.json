@@ -11,7 +11,7 @@
    "id": "2",
    "title": "DELISH",
    "description": "I built this website that helps people with recipes of different kinds of food from different country",
-   "stack": "React + Boostrap",
+   "stack": "React + Boostrap + MkCSS",
    "link": "https://delish-one.vercel.app/"
   },
   {
