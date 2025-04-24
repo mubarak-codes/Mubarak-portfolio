@@ -14,6 +14,7 @@ const Skills = ()=>{
      <div className="bg-success bg-opacity-10 py-4 px-3">React</div>
      <div className="bg-success bg-opacity-10 py-4 px-3">Git</div>
      <div className="bg-success bg-opacity-10 py-4 px-3">Github</div>
+     <div className="bg-success bg-opacity-10 py-4 px-3">MkCSS</div>
 
     </div>
    </section>
