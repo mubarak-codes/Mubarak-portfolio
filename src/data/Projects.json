@@ -17,21 +17,21 @@
   {
    "id": "3",
    "title": "MKCSS",
-   "description": "A lightweight, modular, and customizable CSS framework designed to help developers build fast, responsive and beautiful websites. With a focus on simplicity and ease of use, MkCss provides a solid foundation for web development projects of all sizes.",
+   "description": "A lightweight and customizable CSS framework designed to help developers build fast, responsive and beautiful websites. With a focus on simplicity, MkCSS provides a solid foundation for web development projects of all sizes.",
    "stack": "CSS + JavaScript",
    "link": "https://github.com/mubarak-codes/MkCSS"
   },
   {
    "id": "4",
    "title": "MY PORTFOLIO",
-   "description": "This is a my portfolio",
-   "stack": "React + Boostrap",
+   "description": "This is my portfolio, it's a modern website built with React, Bootstrap, and MkCSS. It's designed to be responsive and visually appealing, providing a great user experience across all devices.",
+   "stack": "React + Boostrap + MkCSS",
    "link": "https://mubarak-portfolio-inky.vercel.app"
   },
   {
    "id": "5",
    "title": "LIFTING TOGETHER",
-   "description": "This is a charity website created with React.",
+   "description": "This is a charity website created with React and Boostrap",
    "stack": "React + Boostrap",
    "link": "https://liftingtogether.vercel.app"
   } 

@@ -5,16 +5,17 @@ const Skills = ()=>{
 
  return(
   <>
-   <section className=" mt-5 px-4 px-sm-5">
-    <h2 className="mfs-9 ff-rubik mb-4 text-center">SKILLS</h2>
-    <div className="d-grid  ff-montserrat gr-2 gr-4-sm fw-bolder gap-3">
-     <div className="bg-success bg-opacity-10 py-4 px-3">HTML</div>
-     <div className="bg-success bg-opacity-10 py-4 px-3">CSS</div>     <div className="bg-success bg-opacity-10 py-4 px-3">JavaScript</div>
-     <div className="bg-success bg-opacity-10 py-4 px-3">Bootstrap</div>
-     <div className="bg-success bg-opacity-10 py-4 px-3">React</div>
-     <div className="bg-success bg-opacity-10 py-4 px-3">Git</div>
-     <div className="bg-success bg-opacity-10 py-4 px-3">Github</div>
-     <div className="bg-success bg-opacity-10 py-4 px-3">MkCSS</div>
+   <section className=" mt8 px4 px6-sm px8-md">
+    <h2 className="fs8 ff-rubik mb4 text-center">SKILLS</h2>
+    <div className="d-grid  ff-montserrat gr2 gr4-sm gr5-md fw-bolder gap-3">
+     <div className="py4 bg-green10 px3">HTML</div>
+     <div className=" py4 bg-green10 px3">CSS</div>    
+     <div className=" py4 bg-green10 px3">JavaScript</div>
+     <div className=" py4 bg-green10 px3">Bootstrap</div>
+     <div className=" py4 bg-green10 px3">React</div>
+     <div className=" py4 bg-green10 px3">Git</div>
+     <div className=" py4 bg-green10 px3">Github</div>
+     <div className=" py4 bg-green10 px3">MkCSS</div>
 
     </div>
    </section>
