@@ -6,11 +6,11 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
  
   return(
     <>
-     <section className=""> 
-      <section className=" container-fluid d-sm-flex d-block mt-4 w-90 align-items-center flex-row-reverse pt-4">
-        <div className="profile d-flex align-items-start justify-content-center py-4">
-         <img src="img/MubarakAvatar.jpg" className="rounded-circle w-70 w-60-sm" style={{marginLeft:'27px'}}/>
-         <i className={`bi ${icon} theme-icon mfs-8 click-fade click-grow`} ref={themeRef} style={{marginRight:'0px',}} onClick={()=>{
+     <section className="px4 px6-md mt14"> 
+      <section className=" container-fluid flex-sm mt4 items-center d-row-reverse pt4">
+        <div className="profile flex items-start content-center py4">
+         <img src="img/MubarakAvatar.jpg" className="rounded-circle w70  w100-sm w90-md w80-lg ms-sm-auto" style={{marginLeft:'27px'}}/>
+         <i className={`bi ${icon} theme-icon fs8 click-fade click-grow`} ref={themeRef} style={{marginRight:'0px',}} onClick={()=>{
           setBg((prev)=>{
            if(prev === 'bg-dark'){
             return 'bg-white'
@@ -23,33 +23,33 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
          }}></i>
         </div>
         {/*profile info*/}
-        <div className="profile-info justify-content-center row py-3 justify-content-sm-start w-90-sm">
-          <h1 className="text-center text-sm-start fw-bolder mfs-10 mb-4 ff-rubik">
+        <div className="profile-info justify-content-center row py-3 justify-content-sm-start me1-sm me6-md">
+          <h1 className="text-center text-sm-start fw-bolder fs8 mb4 ff-rubik">
             MUBARAK <br/> OWOSHENI
           </h1>
-          <h2 className="text-uppercase text-sm-start text-center fw-bolder mfs-5 mb-3 ff-montserrat-bold">
+          <h2 className="text-uppercase text-sm-start text-center fw-bolder fs4 mb3 ff-montserrat-bold">
             Frontend Developer
           </h2>
           {/*social icons*/}
-          <div className={`text-center text-sm-start mfs-6 ${text}`}>
+          <div className={`text-center text-sm-start fs6 ${text}`}>
             <a href="https://x.com/mubarak_codes" target="_blank">
-              <i className={`bi bi-twitter-x px-2 ${text} click-grow click-fade`}></i>
+              <i className={`bi bi-twitter-x px2 ${text} click-grow click-fade`}></i>
             </a>
             <a href="https://www.linkedin.com/in/mubarak-codes-6768b8361?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
-              <i className={`fa-brands fa-linkedin px-2 ${text} click-grow click-fade`}></i>
+              <i className={`fa-brands fa-linkedin px2 ${text} click-grow click-fade`}></i>
             </a>
 
             <a href="https://github.com/mubarak-codes" target="_blank">
-              <i className={`fa-brands fa-github px-2 ${text} click-fade click-grow`}></i>
+              <i className={`fa-brands fa-github px2 ${text} click-fade click-grow`}></i>
             </a>
           </div>
           {/*profile decription*/}
-          <div className="mfs-2 text-center text-sm-start mx-3 mx-sm-auto my-3">
+          <div className="fs2 text-center text-sm-start mx3 mx-sm-auto my3">
             I'm a developer with a passion for delivering solutions that drive business growth. With expertise in making modern web apps. I'm dedicated to delivering high quality results that exceed expectations.
           </div>
-         <a href="files/Mubarak_Owosheni_Resume.pdf" className="row justify-content-center justify-content-sm-start" download><button className="btn bg-success text-white py-2 rounded-4 w-40 text-center ms-2">
+         <div  className="row justify-content-center justify-content-sm-start" download><a href="files/Mubarak_Owosheni_Resume.pdf" className="hover-bg-trans hover-b-green b hover-text-green bg-green text-snow transit b-trans  py2 rounded-4 w40 w30-sm w25-md text-center ms2">
             Resume
-         </button></a>
+         </a></div>
         </div>
       </section>
      </section>
