@@ -18,7 +18,7 @@ const Project = ({bg, text,})=>{
         <h4 className="ff-montserrat-bold mb-2 mfs-4">{project.title}</h4>
         <div className="mb-2 mfs-2 opacity-75">{project.description}</div>
         <div className="mb-2 mfs-2 fw-semibold ">{project.stack}</div>
-        <a href={project.link} className={`mfs-1 ${text} opacity-75 click-fade click-grow`} target="_blank">Visit Website</a>
+        <a href={project.link} className={`mfs-1 ${text} opacity-75 click-fade click-grow hover-text-underline`} target="_blank">Visit Website</a>
        </div>
       </div>
      ))}

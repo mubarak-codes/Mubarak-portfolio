@@ -1,0 +1,54 @@
+.transit{transition : all 0.15s ease-in-out}
+
+
+
+.hover-fade{transition: opacity 0.15s ease-in-out}.hover-fade:hover{opacity:0.5}.click-fade{transition:opacity 0.15s ease-in-out}.click-fade:active{opacity:0.5}.click-grow{transition:transform 0.15s ease-in-out}.click-grow:active{transform:scale(1.1)}
+
+
+
+
+
+.fold{overflow :hidden; padding: 10px } 
+.fold-false{height :0; transition : all 0.3s ease-in-out;opacity : 0 }
+.fold-true{transition : all 0.3s ease-in-out;opacity: 1;}
+
+
+
+
+.drawer-start{overflow :hidden; padding: 10px;  transform-origin: right; right: 0; position: absolute; z-index: 50000;}
+.drawer-false-start{transform: scaleX(0); transition : all 0.3s ease-in-out;}
+.drawer-true-start{transform: scaleX(1); transition : all 0.3s ease-in-out; }
+.drawer-head{display: flex;}.drawer-title{margin-right:auto;}.drawer-exit{margin-left: auto ;cursor: pointer ;}.drawer-toggler {cursor: pointer;}
+
+.drawer-end{overflow :hidden; padding: 10px; position:absolute; z-index: 50000; transform-origin: left; left:0}
+.drawer-false-end{ transform: scaleX(0); transition : all 0.3s ease-in-out;}
+.drawer-true-end{ transition : all 0.3s ease-in-out; transform: scaleX(1);}
+
+.drawer-bottom{overflow :hidden; padding: 10px; position:absolute; z-index: 50000; transform-origin: top;}
+.drawer-false-bottom{ transform: scaleY(0); transition : all 0.3s ease-in-out;}
+.drawer-true-bottom{ transition : all 0.3s ease-in-out; transform: scaleY(1);}
+
+.drawer-top{overflow :hidden; padding: 10px; position:absolute; z-index: 50000; transform-origin: bottom; }
+.drawer-false-top{ transform: scaleY(0); transition : all 0.3s ease-in-out;}
+.drawer-true-top{ transition : all 0.3s ease-in-out; transform: scaleY(1);}
+
+
+
+
+.offscreen-start{overflow :hidden; padding: 10px;  transform-origin: right; right: 0; position: fixed; z-index: 50000; top:0; left: 0;bottom:0; box-shadow: 2px 2px 30px #00000059}
+.offscreen-false-start{transform: scaleX(0); transition : all 0.3s ease-in-out;}
+.offscreen-true-start{transform: scaleX(1); transition : all 0.3s ease-in-out; }
+
+.offscreen-head{display: flex;}.offscreen-title{margin-right:auto;}.offscreen-exit{margin-left: auto ;cursor: pointer ;}.offscreen-toggler {cursor: pointer;}
+
+.offscreen-end{overflow :hidden; padding: 10px; position:fixed; z-index: 50000; transform-origin: left; left:0; right:0; top:0; bottom:0; box-shadow: 2px 2px 30px #00000059}
+.offscreen-false-end{ transform: scaleX(0); transition : all 0.3s ease-in-out;}
+.offscreen-true-end{ transition : all 0.3s ease-in-out; transform: scaleX(1);}
+
+.offscreen-bottom{overflow :hidden; padding: 10px; position:fixed; z-index: 50000; transform-origin: top; top:0; bottom:0; left:0; right:0; box-shadow: 2px 2px 30px #00000059}
+.offscreen-false-bottom{ transform: scaleY(0); transition : all 0.3s ease-in-out;}
+.offscreen-true-bottom{ transition : all 0.3s ease-in-out; transform: scaleY(1);}
+
+.offscreen-top{overflow :hidden; padding: 10px; position:fixed; z-index: 50000; transform-origin: bottom; top:0; bottom:0; left:0; right:0; box-shadow: 2px 2px 30px #00000059}
+.offscreen-false-top{ transform: scaleY(0); transition : all 0.3s ease-in-out;}
+.offscreen-true-top{ transition : all 0.3s ease-in-out; transform: scaleY(1);}
