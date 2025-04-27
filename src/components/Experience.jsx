@@ -6,7 +6,7 @@ const Experience = ()=>{
  return(
   <>
    <section className="">
-    <h2 className="fs8 text-center ff-rubik mt8 mb6"> EXPERIENCE</h2>
+    <h2 className="fs8 text-center ff-rubik mt8 mb5"> EXPERIENCE</h2>
     <div className="d-grid gap-3 gr2-sm">{experience.map((experience)=>(
      <div className="bg-green10 rounded-4 p4">
       <h3 className="ff-montserrat-bold fs4">{experience.role}</h3>

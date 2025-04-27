@@ -3,7 +3,7 @@
   {
    "id": "1",
    "title": "YOUTUBE CLONE",
-   "description": "I built a front-end clone of YouTube, focusing on recreating the iconic video platform's user interface. This project showcases my skills in HTML, CSS, and JavaScript.",
+   "description": "I built a front-end clone of YouTube, focusing on recreating the platform's user interface.",
    "stack": "HTML + Boostrap + JavaScript",
    "link": "https://you-tube-clone-lilac-alpha.vercel.app/"
   },  
@@ -17,23 +17,16 @@
   {
    "id": "3",
    "title": "MKCSS",
-   "description": "A lightweight and customizable CSS framework designed to help developers build fast, responsive and beautiful websites. With a focus on simplicity, MkCSS provides a solid foundation for web development projects of all sizes.",
+   "description": "A lightweight and customizable CSS framework designed to help developers build fast, responsive and beautiful websites.",
    "stack": "CSS + JavaScript",
    "link": "https://github.com/mubarak-codes/MkCSS"
   },
   {
    "id": "4",
    "title": "MY PORTFOLIO",
-   "description": "This is my portfolio, it's a modern website built with React, Bootstrap, and MkCSS. It's designed to be responsive and visually appealing, providing a great user experience across all devices.",
+   "description": "This is my portfolio. It's designed to be responsive and visually appealing, providing a great user experience across all devices.",
    "stack": "React + Boostrap + MkCSS",
    "link": "https://mubarak-portfolio-inky.vercel.app"
-  },
-  {
-   "id": "5",
-   "title": "LIFTING TOGETHER",
-   "description": "This is a charity website created with React and Boostrap",
-   "stack": "React + Boostrap",
-   "link": "https://liftingtogether.vercel.app"
   } 
 
  ]
