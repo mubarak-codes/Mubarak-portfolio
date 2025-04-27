@@ -24,7 +24,8 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
         </div>
         {/*profile info*/}
         <div className="profile-info justify-content-center row py-3 justify-content-sm-start me1-sm me6-md">
-          <h1 className="text-center text-sm-start fw-bolder fs8 mb4 ff-rubik">
+          <h1 className="text-center text-sm-start fw-bolder fs10 mb4 ff-rubik">
+           
             MUBARAK <br/> OWOSHENI
           </h1>
           <h2 className="text-uppercase text-sm-start text-center fw-bolder fs4 mb3 ff-montserrat-bold">
@@ -45,9 +46,9 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
           </div>
           {/*profile decription*/}
           <div className="fs2 text-center text-sm-start mx3 mx-sm-auto my3">
-            I'm a developer with a passion for delivering solutions that drive business growth. With expertise in making modern web apps. I'm dedicated to delivering high quality results that exceed expectations.
+            I'm Mubarak Owosheni, 18 years old, with 2+ years of experience. With expertise in making modern web apps. I'm dedicated to delivering high quality results that exceed expectations.
           </div>
-         <div  className="row justify-content-center justify-content-sm-start" download><a href="files/Mubarak_Owosheni_Resume.pdf" className="hover-bg-trans hover-b-green b hover-text-green bg-green text-snow transit b-trans  py2 rounded-4 w40 w30-sm w25-md text-center ms2">
+         <div  className="row justify-content-center justify-content-sm-start my3" download><a href="files/Mubarak_Owosheni_Resume.pdf" className="hover-bg-trans hover-b-green b hover-text-green bg-green text-snow transit b-trans  py2 rounded-4 w40 w30-sm w25-md text-center ms2-sm">
             Resume
          </a></div>
         </div>
