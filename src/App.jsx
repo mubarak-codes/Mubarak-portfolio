@@ -7,6 +7,7 @@ import Skills from './components/Skills'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Experience from './components/Experience'
+import About from './components/About'
 
 
 
@@ -22,6 +23,7 @@ let [bg, setBg] = usePersistState('theme', 'bg-white')
   <>
    <Navbar text={text} bg={bg} />
    <Hero bg={bg} text={text} icon={icon} setText={setText} setBg={setBg} setIcon={setIcon} />
+   <About />
    <Project bg={bg} text={text} />
    <Experience />
    <Skills />
