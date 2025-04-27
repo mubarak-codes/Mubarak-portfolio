@@ -20,10 +20,10 @@ let [bg, setBg] = usePersistState('theme', 'bg-white')
   
  return(
   <>
-   <Navbar text={text}  />
+   <Navbar text={text} bg={bg} />
    <Hero bg={bg} text={text} icon={icon} setText={setText} setBg={setBg} setIcon={setIcon} />
-   <Experience />
    <Project bg={bg} text={text} />
+   <Experience />
    <Skills />
    <Contact text={text} />
    <Footer />
