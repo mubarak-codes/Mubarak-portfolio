@@ -6,7 +6,7 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
  
   return(
     <>
-     <section className="px4 px6-md mt14"> 
+     <section className=" mt14"> 
       <section className=" container-fluid flex-sm mt4 items-center d-row-reverse pt4">
         <div className="profile flex items-start content-center py4">
          <img src="img/MubarakAvatar.jpg" className="rounded-circle w70  w100-sm w90-md w80-lg ms-sm-auto" style={{marginLeft:'27px'}}/>
@@ -23,12 +23,12 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
          }}></i>
         </div>
         {/*profile info*/}
-        <div className="profile-info justify-content-center row py-3 justify-content-sm-start me1-sm me6-md">
-          <h1 className="text-center text-sm-start fw-bolder fs10 mb4 ff-rubik">
+        <div className="profile-info justify-content-center row py-3 justify-content-sm-start me8-sm">
+          <h1 className="text-center text-sm-start fw-bolder fs7 mb4 ff-rubik">
            
-            MUBARAK <br/> OWOSHENI
+            MUBARAK <br className="d-inline d-sm-none"/> OWOSHENI
           </h1>
-          <h2 className="text-uppercase text-sm-start text-center fw-bolder fs4 mb3 ff-montserrat-bold">
+          <h2 className="text-uppercase text-sm-start text-center fw-bolder fs3 mb3 ff-montserrat-bold opacity75">
             Frontend Developer
           </h2>
           {/*social icons*/}
@@ -46,9 +46,9 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
           </div>
           {/*profile decription*/}
           <div className="fs2 text-center text-sm-start mx3 mx-sm-auto my3">
-            I'm Mubarak Owosheni, 18 years old, with 2+ years of experience. With expertise in making modern web apps. I'm dedicated to delivering high quality results that exceed expectations.
+            I'm Mubarak Owosheni, 18 years old, with 2+ years of experience. With expertise in making modern web apps.
           </div>
-         <div  className="row justify-content-center justify-content-sm-start my3" download><a href="files/Mubarak_Owosheni_Resume.pdf" className="hover-bg-trans hover-b-green b hover-text-green bg-green text-snow transit b-trans  py2 rounded-4 w40 w30-sm w25-md text-center ms2-sm">
+         <div  className="row justify-content-center justify-content-sm-start my3" download><a href="files/Mubarak_Owosheni_Resume.pdf" className="hover-bg-trans hover-b-green b hover-text-green bg-green text-snow transit b-trans  py2 rounded-pill w40  w30-md text-center ms2-sm">
             Resume
          </a></div>
         </div>

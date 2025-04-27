@@ -9,7 +9,7 @@ const Project = ({bg, text,})=>{
 
  return(
   <>
-   <section className="mt8 px4 px6-sm px8-md" id="projects">
+   <section className="mt8" id="projects">
     <h2 className="text-center ff-rubik mb4 fs8">PROJECT</h2>
     <div className=" gap-4 d-grid gr2-sm">
      {projects.map((project)=>(
