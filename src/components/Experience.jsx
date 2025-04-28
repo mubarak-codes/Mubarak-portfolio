@@ -5,7 +5,7 @@ const Experience = ()=>{
 
  return(
   <>
-   <section className="mt12 px4 px10-sm px20-md">
+   <section className="mt12 px4 px10-sm px20-md" id="experience">
     <h2 className="fs8 text-center ff-rubik mb8"> EXPERIENCE</h2>
     <div className="d-grid gap-4 gr2-sm">{experience.map((experience)=>(
      <div className="bg-gray10 rounded-4 hover-grow p4">

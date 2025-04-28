@@ -48,7 +48,7 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
           <div className="fs2 text-center text-sm-start mx3 mx-sm-auto my3">
            I'm <span className="text-green fw-semibold ">Mubarak Owosheni</span>, 18 years old, with 2+ years of experience. With expertise in making modern web apps.
           </div>
-         <div  className="row justify-content-center justify-content-sm-start my3" download><a href="files/Mubarak_Owosheni_Resume.pdf" className="hover-bg-trans hover-b-green b hover-text-green bg-green text-snow transit b-trans  py2 rounded-pill w40  w30-md text-center ms2-sm">
+         <div  className="row justify-content-center justify-content-sm-start my3" download><a href="files/Mubarak_Owosheni_Resume.pdf" className="hover-bg-trans hover-b-green b hover-text-green bg-green text-snow transit b-trans  py2 rounded-pill w40  w30-md text-center ms2-sm cursor-pointer">
             Resume
          </a></div>
         </div>
