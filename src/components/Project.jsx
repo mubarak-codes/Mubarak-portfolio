@@ -13,7 +13,7 @@ const Project = ({bg, text,})=>{
     <h2 className="text-center ff-rubik mb8 fs8">PROJECT</h2>
     <div className=" gap-4 d-grid gr2-sm">
      {projects.map((project)=>(
-      <div className={`bg-green10 b b-green50 rounded-4 flex p4  ${text}`} key={project.id}>
+      <div className={`bg-gray10 hover-grow rounded-4 flex p4  ${text}`} key={project.id}>
        <div className="">
         <h4 className="ff-montserrat-bold mb2 fs3">{project.title}</h4>
         <div className="mb2 fs2 opacity75">{project.description}</div>

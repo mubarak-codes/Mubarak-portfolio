@@ -2,7 +2,7 @@
 
 
 
-.hover-fade{transition: opacity 0.15s ease-in-out}.hover-fade:hover{opacity:0.5}.click-fade{transition:opacity 0.15s ease-in-out}.click-fade:active{opacity:0.5}.click-grow{transition:transform 0.15s ease-in-out}.click-grow:active{transform:scale(1.1)}
+.hover-fade{transition: opacity 0.15s ease-in-out}.hover-fade:hover{opacity:0.5}.click-fade{transition:opacity 0.15s ease-in-out}.click-fade:active{opacity:0.5}.click-grow{transition:transform 0.15s ease-in-out}.click-grow:active{transform:scale(1.1)} .hover-grow{transition: transform 0.15s ease-in-out} .hover-grow:hover{transform:scale(1.1)}
 
 
 
