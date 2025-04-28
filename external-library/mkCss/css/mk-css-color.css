@@ -1,6 +1,13 @@
 .opacity10{opacity:0.1}.opacity25{opacity:0.25}.opacity50{opacity:0.5}.opacity75{opacity:0.75}
 
 
+.hover-opacity10:hover{opacity:0.1}.hover-opacity25:hover{opacity:0.25}.hover-opacity50:hover{opacity:0.5}.hover-opacity75:hover{opacity:0.75}
+
+.active-opacity10:active{opacity:0.1}.active-opacity25:active{opacity:0.25}.active-opacity50:active{opacity:0.5}.active-opacity75:active{opacity:0.75}
+
+.focus-opacity10:focus{opacity:0.1}.focus-opacity25:focus{opacity:0.25}.focus-opacity50:focus{opacity:0.5}.focus-opacity75:focus{opacity:0.75}
+
+
 
 
 .bg-brown{background-color:brown;}.bg-gold{background-color:#E5BF00}.bg-gold10{background-color:#E5BF0017}.bg-gold25{background-color:#E5BF0038}.bg-gold50{background-color:#E5BF0078}.bg-gold75{background-color:#E5BF00B8}
@@ -38,7 +45,7 @@
 
 .text-green{color:#25824F} .text-blue{color :#0D6EFD} .text-night{color: #252525}.text-ebony{color:#000000}
 .text-snow{color:#fff}.text-gray{color:#757F8A}
-.text-trans{color: transparent }.text-pink{color: hotpink} .text-lemon{color: #B1E548} 
+.text-trans{color: transparent }.text-pink{color: hotpink} .text-lemon{color: #B1E548} .text-inherit{color:inherit} 
 
 
 
@@ -64,6 +71,16 @@
 
 
 
+.focus-bg-trans:focus{background-color : transparent}
+.focus-bg-orange:focus{background-color:orange}  .focus-bg-gold:focus{background-color:#E5BF00 } .focus-bg-indigo:focus{background-color:indigo}  .focus-bg-purple:focus{background-color:purple} 
+
+.focus-bg-cyan:focus{background-color:#23EAEA }  .focus-bg-red:focus{background-color:#DC3546 }  .focus-bg-blue:focus{background-color:#0D6EFD}  .focus-bg-green:focus{background-color:#25824F } .focus-bg-yellow:focus{background-color:#FEC107} .focus-bg-night:focus{background-color:#252525} 
+
+.focus-bg-snow:focus{background-color:white}  .focus-bg-gray:focus{background-color:#757F8A}.focus-bg-ebony:focus{background-color:#000000}.focus-bg-pink:focus{background-color: hotpink}
+.focus-bg-lemon:focus{background-color: #B1E548} 
+
+
+
 
 
 
@@ -85,3 +102,14 @@
 .hover-text-gray:hover{color:#757F8A}.hover-text-ebony:hover{color:#000000}
 .hover-text-pink:hover{color: hotpink}
 .hover-text-lemon:active{color: #B1E548} 
+
+
+
+.focus-text-trans:focus{color : transparent}
+.focus-text-orange:focus{color:orange}  .focus-text-gold:focus{color:#E5BF00 } .focus-text-indigo:focus{color:indigo}  .focus-text-purple:focus{color:purple}   .focus-text-cyan:focus{color:#23EAEA }  
+
+.focus-text-red:focus{color:#DC3546 }  .focus-text-blue:focus{color:#0D6EFD}  .focus-text-green:focus{color:#25824F } .focus-text-yellow:focus{color:#FEC107} .focus-text-night:focus{color:#252525} .focus-text-snow:focus{color:white}
+
+.focus-text-gray:focus{color:#757F8A}.focus-text-ebony:focus{color:#000000}
+.focus-text-pink:focus{color: hotpink}
+.focus-text-lemon:active{color: #B1E548} 
