@@ -6,7 +6,7 @@ const Navbar = ({text, bg})=>{
   <>
    <section className=" mb5">
     <nav className={`navbar navbar-expand-sm ${bg} fixed-top py3 left0  right0 top0 `}>
-     <div className=" container ">
+     <div className=" container py3 py1-sm">
       <div className=" fw-bolder ff-rubik text-uppercase text-green fs5">
           Mubarak
       </div>
