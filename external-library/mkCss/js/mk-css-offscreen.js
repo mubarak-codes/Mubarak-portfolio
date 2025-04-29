@@ -20,7 +20,7 @@ let overlayHide = document.querySelector('.overlay-hide');
   offscreenTarget.classList.add('offscreen-false-top')
  } else if (offscreenTarget.classList.contains('offscreen-start')) {
  offscreenTarget.classList.add('offscreen-false-start')
- } else if (offscreenTarget.classList.contains('offscreen-end') || offscreenTarget.classList.contains('offscreen-end-sm')) {
+ } else if (offscreenTarget.classList.contains('offscreen-end')) {
  offscreenTarget.classList.add('offscreen-false-end')
  }
  
@@ -39,7 +39,7 @@ let overlayHide = document.querySelector('.overlay-hide');
    } else if (offscreenTarget.classList.contains('offscreen-start')) {
     offscreenTarget.classList.remove('offscreen-false-start');
     offscreenTarget.classList.add('offscreen-true-start');
-   } else if (offscreenTarget.classList.contains('offscreen-end') || offscreenTarget.classList.contains('offscreen-end-sm')) {
+   } else if (offscreenTarget.classList.contains('offscreen-end')) {
     offscreenTarget.classList.remove('offscreen-false-end');
     offscreenTarget.classList.add('offscreen-true-end');
    }
@@ -55,7 +55,7 @@ let overlayHide = document.querySelector('.overlay-hide');
    } else if (offscreenTarget.classList.contains('offscreen-start')){
     offscreenTarget.classList.remove('offscreen-true-start');
     offscreenTarget.classList.add('offscreen-false-start');
-   } else if (offscreenTarget.classList.contains('offscreen-end')|| offscreenTarget.classList.contains('offscreen-end-sm')){
+   } else if (offscreenTarget.classList.contains('offscreen-end')){
     offscreenTarget.classList.remove('offscreen-true-end');
     offscreenTarget.classList.add('offscreen-false-end');
    }
@@ -77,7 +77,7 @@ let overlayHide = document.querySelector('.overlay-hide');
    } else if (offscreenTarget.classList.contains('offscreen-start')){
     offscreenTarget.classList.remove('offscreen-true-start');
     offscreenTarget.classList.add('offscreen-false-start');
-   } else if (offscreenTarget.classList.contains('offscreen-end')|| offscreenTarget.classList.contains('offscreen-end-sm')){
+   } else if (offscreenTarget.classList.contains('offscreen-end')){
     offscreenTarget.classList.remove('offscreen-true-end');
     offscreenTarget.classList.add('offscreen-false-end');
    } 
@@ -99,7 +99,7 @@ let overlayHide = document.querySelector('.overlay-hide');
    } else if (offscreenTarget.classList.contains('offscreen-start')){
     offscreenTarget.classList.remove('offscreen-true-start');
     offscreenTarget.classList.add('offscreen-false-start');
-   } else if (offscreenTarget.classList.contains('offscreen-end')|| offscreenTarget.classList.contains('offscreen-end-sm')){
+   } else if (offscreenTarget.classList.contains('offscreen-end')){
     offscreenTarget.classList.remove('offscreen-true-end');
     offscreenTarget.classList.add('offscreen-false-end');
    }
