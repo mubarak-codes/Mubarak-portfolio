@@ -11,7 +11,7 @@
    "id": "2",
    "title": "DELISH",
    "description": "I built this website that helps people with recipes of different kinds of food from different country",
-   "stack": "React + Boostrap + MkCSS",
+   "stack": "React + Boostrap + Typescript + MkCSS",
    "link": "https://delish-one.vercel.app/"
   },
   {
@@ -25,7 +25,7 @@
    "id": "4",
    "title": "MY PORTFOLIO",
    "description": "This is my portfolio. It's designed to be responsive and visually appealing, providing a great user experience across all devices.",
-   "stack": "React + Boostrap + MkCSS",
+   "stack": "React + Boostrap + JavaScript + MkCSS",
    "link": "https://mubarak-portfolio-inky.vercel.app"
   } 
 
