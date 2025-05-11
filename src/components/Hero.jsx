@@ -50,6 +50,7 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
           </div>
          <div  className="flex content-center content-start-sm my3" download>
           <a href="files/Mubarak_Owosheni_Resume.pdf" className="bg-green b b-trans hover-bg-trans hover-b-green hover-text-green rounded-pill w30 fs2 py2 text-center text-snow fw-semibold opacity100 cursor-pointer link">Resume</a>
+
          </div>
         </div>
       </section>
