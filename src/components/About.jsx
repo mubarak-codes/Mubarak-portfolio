@@ -6,7 +6,7 @@ let About = ()=>{
 
  return(
   <>
-   <section id="about" className="flex d-col items-center mt12 px4 px10-sm px19-md px16-lg">
+   <section id="about" className="flex d-col items-center mt12 px5 px10-sm px19-md px16-lg">
     <h3 className="mb8 fs9 ff-rubik">ABOUT</h3>
     <div className="flex d-col d-row-sm gap-5 items-center content-center">
      <img src="img/how-01.jpeg" className="w80 h350px-l w40-sm rounded-1" />
