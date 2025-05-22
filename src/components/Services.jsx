@@ -2,7 +2,7 @@ const Services = () => {
  return (
   <>
    <section id="services" className="mt12 px5 px10-sm px19-md">
-    <h2 className="mb8 ff-rubik fs8">SERVICES</h2>
+    <h2 className="mb8 ff-rubik fs8 txt-center">SERVICES</h2>
     {/*front end Developer*/}
     <div>
      <h4 className="ff-rubik">Front End Developer</h4>
