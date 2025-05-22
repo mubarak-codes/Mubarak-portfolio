@@ -157,3 +157,14 @@
 
 .br-top-left10px{border-top-left-radius: 10px} .br-top-right10px{border-top-right-radius: 10px} .br-bottom-left10px{border-bottom-left-radius: 10px} .br-bottom-right10px{border-bottom-right-radius: 10px}
 .br-top-left20px{border-top-left-radius: 20px} .br-top-right20px{border-top-right-radius: 20px} .br-bottom-left20px{border-bottom-left-radius: 20px} .br-bottom-right20px{border-bottom-right-radius: 20px}
+
+
+
+
+/*shadow*/
+.shadow1{box-shadow: 0 2px 5px  #0000001A;} .shadow2{box-shadow: 0 4px 10px  #00000024;} .shadow3{box-shadow: 0 6px 20px  #00000029;} .shadow4{box-shadow: 0 8px 30px  #0000002E;} .shadow5{box-shadow: 0 10px 45px  #00000036;}
+
+
+.hover-shadow1:hover{box-shadow: 0 2px 5px  #0000001A;} .hover-shadow2:hover{box-shadow: 0 4px 10px  #00000024;} .hover-shadow3:hover{box-shadow: 0 6px 20px  #00000029;} .hover-shadow4:hover{box-shadow: 0 8px 30px  #0000002E;} .hover-shadow5:hover{box-shadow: 0 10px 45px  #00000036;}
+
+.active-shadow1:active{box-shadow: 0 2px 5px  #0000001A;} .active-shadow2:active{box-shadow: 0 4px 10px  #00000024;} .active-shadow3:active{box-shadow: 0 6px 20px  #00000029;} .active-shadow4:active{box-shadow: 0 8px 30px  #0000002E;} .active-shadow5:active{box-shadow: 0 10px 45px  #00000036;}
