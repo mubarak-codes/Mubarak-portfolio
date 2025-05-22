@@ -3,30 +3,34 @@
   {
    "id": "1",
    "title": "YOUTUBE CLONE",
-   "description": "I built a front-end clone of YouTube, focusing on recreating the platform's user interface.",
+   "description": "A front-end clone of YouTube, focusing on recreating the platform's user interface.",
    "stack": "HTML + CSS + Boostrap + JavaScript + Git",
-   "link": "https://you-tube-clone-lilac-alpha.vercel.app/"
+   "link": "https://you-tube-clone-lilac-alpha.vercel.app/",
+   "image": "img/youtube.jpg"
   },  
   {
    "id": "2",
    "title": "DELISH",
    "description": "I built this website that helps people with recipes of different kinds of food from different country",
    "stack": "Angular + Boostrap + Typescript + MkCSS + Git",
-   "link": "https://delish-pi.vercel.app/"
+   "link": "https://delish-pi.vercel.app/",
+   "image": "img/delish.jpg"
   },
   {
    "id": "3", 
    "title": "MKCSS",
    "description": "A lightweight and customizable CSS framework designed to help developers build fast, responsive and beautiful websites.",
    "stack": "CSS + JavaScript + Git",
-   "link": "ht tps://github.com/mubarak-codes/MkCSS"
+   "link": "ht tps://github.com/mubarak-codes/MkCSS",
+   "image": "img/mkcss.jpg"
   },  
   {
    "id": "4",
    "title": "MY PORTFOLIO",
    "description": "This is my portfolio. It's designed to be responsive and visually appealing, providing a great user experience across all devices.",
    "stack": "React + CSS + Boostrap + JavaScript + MkCSS + Git",
-   "link": "https://mubarak-portfolio-inky.vercel.app"
+   "link": "https://mubarak-portfolio-inky.vercel.app",
+   "image": "img/portfolio.jpg"
   } 
 
  ]
