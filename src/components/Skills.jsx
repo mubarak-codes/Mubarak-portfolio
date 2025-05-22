@@ -19,6 +19,15 @@ const Skills = ()=>{
      <div className=" py4 bg-gray10 px3 hover-grow hover-opacity75 transit"><i className="fab fa-github me3 fs9 vertical-center"></i>Github</div>
      <div className=" py4 bg-gray10 px3 hover-grow hover-opacity75 transit"><i className="fab fa-html5 me3 fs9 vertical-center"></i>MkCSS</div>
 
+     <div className=" py4 bg-gray10 px3 hover-grow hover-opacity75 transit"><i className="fab fa-html5 me3 fs9 vertical-center"></i>Python</div>
+
+     <div className=" py4 bg-gray10 px3 hover-grow hover-opacity75 transit"><i className="fab fa-html5 me3 fs9 vertical-center"></i>Django</div>
+
+     <div className=" py4 bg-gray10 px3 hover-grow hover-opacity75 transit"><i className="fab fa-html5 me3 fs9 vertical-center"></i>Postgressql</div>
+
+
+
+
     </div>
    </section>
   </>

@@ -29,14 +29,14 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
             MUBARAK <br className="d-inline d-sm-none"/> OWOSHENI
           </h1>
           <h2 className="text-uppercase text-sm-start text-center fw-bolder fs3 mb3 ff-montserrat-bold opacity75">
-            Frontend Developer
+            Software Developer
           </h2>
           {/*social icons*/}
           <div className={`text-center text-sm-start fs6 ${text}`}>
             <a href="https://x.com/mubarak_codes" target="_blank">
               <i className={`bi bi-twitter-x px2 ${text} click-grow click-fade`}></i>
             </a>
-            <a href="https://www.linkedin.com/in/mubarak-codes-6768b8361?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+            <a href="https://www.linkedin.com/in/mubarak-owosheni-6768b8361" target="_blank">
               <i className={`fa-brands fa-linkedin px2 ${text} click-grow click-fade`}></i>
             </a>
 
@@ -46,7 +46,7 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
           </div>
           {/*profile decription*/}
           <div className="fs2 text-center text-sm-start mx3 mx-sm-auto my3">
-           I'm <span className="text-green fw-semibold ">Mubarak Owosheni</span>, 18 years old, with 2+ years of experience. With expertise in making modern web apps.
+           I'm <span className="text-green fw-semibold ">Mubarak Owosheni</span>, 18 years old, with 3+ years of experience. With expertise in making modern web apps.
           </div>
          <div  className="flex content-center content-start-sm my3" download>
           <a href="files/Mubarak_Owosheni_Resume.pdf" className="bg-green b b-trans hover-bg-trans hover-b-green hover-text-green rounded-pill w30 fs2 py2 text-center text-snow fw-semibold opacity100 cursor-pointer link">Resume</a>

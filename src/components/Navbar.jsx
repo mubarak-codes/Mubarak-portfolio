@@ -14,10 +14,12 @@ const Navbar = ({text, bg})=>{
 
       <div id="navbar" className="collapse navbar-collapse">
        <ul className="flex fs2 gap-3 navbar-nav py3 ms-auto">
-         <li className="nav-item cursor-pointer hover-fade"><a href="#about" className={`link-inherit`}>About</a></li>
-         <li className="nav-item cursor-pointer hover-fade"><a href="#projects" className={`link-inherit`}>Projects</a></li>
-         <li className="nav-item cursor-pointer hover-fade"><a href="#experience" className={`link-inherit`}>Experience</a></li>
-         <li className="nav-item cursor-pointer hover-fade"><a href="#contact" className={`link-inherit`}>Contact</a></li>
+        <li className="nav-item cursor-pointer hover-fade"><a href="#about" className={`link-inherit`}>About</a></li>
+        <li className="nav-item cursor-pointer hover-fade"><a href="#projects" className={`link-inherit`}>Projects</a></li>
+        <li className="nav-item cursor-pointer hover-fade"><a href="#experience" className={`link-inherit`}>Experience</a></li>
+        <li className="nav-item cursor-pointer hover-fade"><a href="#contact" className={`link-inherit`}>Contact</a></li>
+        <li className="nav-item cursor-pointer hover-fade"><a href="#services" className={`link-inherit`}>Services</a></li>
+
        </ul> 
       </div>
      </div>
