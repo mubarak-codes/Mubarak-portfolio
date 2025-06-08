@@ -50,3 +50,6 @@
 
 .h50px-lg{height:50px} .h75px-lg{height: 75px !important;} .h100px-lg{height:100px}.h150px-lg{height:150px}.h200px-lg{height:200px}.h250px-lg{height:250px}.h300px-lg{height:300px}.h350px-lg{height:350px}.h400px-lg{height:400px}.h450px-lg{height:450px}.h500px-lg{height:500px}.h550px-lg{height:550px}.h600px-lg{height:600px}
 }
+
+
+.img-cover{image-fit: cover}
