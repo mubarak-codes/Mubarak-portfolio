@@ -6,7 +6,7 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
  
   return(
     <>
-     <section className=" mt14 px5 px10-sm px19-md"> 
+     <section className=" mt10 px5 px10-sm px19-md"> 
       <section className=" container-fluid flex-sm mt4 items-center d-row-reverse pt4">
         <div className="profile flex items-start content-center py4">
          <img src="img/MubarakAvatar.jpg" className="rounded-circle w70 -me5-sm  w90-sm w80-md w70-lg ms-sm-auto" style={{marginLeft:'27px'}}/>
@@ -24,7 +24,7 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
         </div>
         {/*profile info*/}
         <div className="profile-info justify-content-center row py-3 justify-content-sm-start me8-sm">
-          <h1 className="text-center text-sm-start fw-bolder fs13 mb4 ff-rubik">
+          <h1 className="text-center text-sm-start fw-bolder fs10 mb4 ff-rubik">
            
             MUBARAK <br className="d-inline d-sm-none"/> OWOSHENI
           </h1>
