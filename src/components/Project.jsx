@@ -14,8 +14,8 @@ const Project = ({bg, text,})=>{
     <div className=" gap-4 d-grid gr2-sm">
      {projects.map((project)=>(
       <div className={`b b-gray50 rounded-4 flex p5  ${text}`} key={project.id}>
-       <div className=".mh400px">
-        <div className="mb7 flex h40  h50-md">
+       <div className="h350px">
+        <div className="mb7 flex h40  h40-md h50-lg">
          <img src={project.image} className="w100 br2 b h100 obj-cover obj-top items-start" />
         </div>
         <h4 className="ff-montserrat-bold mb2 fs3">{project.title}</h4>
