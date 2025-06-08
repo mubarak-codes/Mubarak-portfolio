@@ -7,14 +7,14 @@ const Services = () => {
      {/*front end Developer*/}
      <div className="b p4 br3 pb2">
       <h4 className="ff-rubik fs4 mb3">Front-End Developer</h4>
-      <p className="fs2 opacity75">I have 3+ years of experience in front-end development. I create visually appealing and user-friendly websites using <span className="text-green">HTML, CSS, Bootstrap, Javascript, Typescript, React, Angular</span> and my CSS framework <span className="text-green">"MkCSS"</span>.</p>
+      <p className="fs2 opacity75">I have 3+ years of experience in front-end development. I create visually appealing and user-friendly websites using HTML, CSS, Bootstrap, Javascript, Typescript, React, Angular and my CSS framework MkCSS".</p>
      </div>
 
     {/*back end Developer*/}
      <div className="b p4 br3 pb2">
       <h4 className="ff-rubik fs4 mb3">Back-End Developer</h4>
       <p className="fs2 opacity75">
-      With 2+ years of experience in back-end development, I design and build robust, scalable server-side applications using <span className="text-green">Python, Django, and PostgreSQL</span>.</p>
+      With 2+ years of experience in back-end development, I design and build robust, scalable server-side applications using Python, Django, and PostgreSQL.</p>
     </div>
     </div>
    </section>
