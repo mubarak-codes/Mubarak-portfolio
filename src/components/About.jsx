@@ -13,7 +13,7 @@ let About = ()=>{
      <div className="w50-sm w40-lg ">
       <div className="fs2 opacity75 text-center text-sm-start">Hi, I'm Mubarak Owosheni, an 18 year-old, software developer from Lagos. With over 3 years of experience, with expertise in building modern web apps.<br/> I started coding in 2023 and have since honed my skills in creating responsive, user-friendly, and scalable web apps using HTML, CSS, Bootstrap, JavaScript  React, Angular, Typescript, Python, Django, Postgressql.<br/> I'm excited to collaborate with like minded individuals to bring their ideas to life.</div><br/>
       <div className="flex content-center content-start-sm">
-       <a href="#contact" className="bg-green b b-trans hover-bg-trans hover-b-green hover-text-green d-inline rounded-pill px4 w30 fs2 py2 text-center link text-snow  fw-semibold opacity100 cursor-pointer">Contact</a>
+       <a href="#contact" className="bg-blue b b-trans hover-bg-trans hover-b-blue hover-text-blue d-inline rounded-pill px4 w30 fs2 py2 text-center link text-snow  fw-semibold opacity100 cursor-pointer">Contact</a>
       </div>
      </div>
     </div>

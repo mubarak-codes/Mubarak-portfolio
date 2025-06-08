@@ -49,7 +49,7 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
            I'm Mubarak Owosheni, 18 years old, with 3+ years of experience. With expertise in making modern web apps.
           </div>
          <div  className="flex content-center content-start-sm my3" download>
-          <a href="files/Mubarak_Resume.pdf" className="bg-blue b b-trans hover-bg-trans hover-b-green hover-text-green rounded-pill w30 fs2 py2 text-center text-snow fw-semibold opacity100 cursor-pointer link">Resume</a>
+          <a href="files/Mubarak_Resume.pdf" className="bg-blue b b-trans hover-bg-trans hover-b-blue hover-text-blue rounded-pill w30 fs2 py2 text-center text-snow fw-semibold opacity100 cursor-pointer link">Resume</a>
 
          </div>
         </div>
