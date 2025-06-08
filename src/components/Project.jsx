@@ -20,8 +20,8 @@ const Project = ({bg, text,})=>{
         </div>
         <h4 className="ff-montserrat-bold mb2 fs3">{project.title}</h4>
         <div className="mb2 fs2 opacity75">{project.description.substring(0, 80)}...</div>
-        <a href={project.link} className={`fs1 ${text} opacity75 click-fade click-grow link-inherit cursor-pointer `} target="_blank">Visit Website <i className="bi bi-arrow-up-right vertical-center"></i> </a> <hr/>
-        <div className="mt2 fs1 opacity75 fw-semibold ">{project.stack}</div>
+        <a href={project.link} className={`fs1 text-green b b-green opacity75 click-fade click-grow link cursor-pointer p1 px2 br2`} target="_blank">Visit Website <i className="bi bi-arrow-up-right vertical-center"></i> </a> <hr/>
+        <div className="mt2 fs2 opacity75  ">{project.stack}</div>
        </div>
       </div>
      ))}

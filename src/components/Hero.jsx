@@ -24,7 +24,7 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
         </div>
         {/*profile info*/}
         <div className="profile-info justify-content-center row py-3 justify-content-sm-start me8-sm">
-          <h1 className="text-center text-sm-start fw-bolder fs10 mb4 ff-rubik">
+          <h1 className="text-center text-sm-start fw-bolder fs13 mb4 ff-rubik">
            
             MUBARAK <br className="d-inline d-sm-none"/> OWOSHENI
           </h1>

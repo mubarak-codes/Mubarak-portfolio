@@ -1,12 +1,17 @@
+.fs1{font-size:10px}.fs2{font-size:13px}.fs3{font-size:15px}.fs4{font-size:18px}.fs5{font-size:20px}.fs6{font-size:22px}.fs7{font-size:24px}.fs8{font-size:26px}.fs9{font-size:28px}.fs10{font-size:30px}
+.fs11{font-size:32px} .fs12{font-size:34px} .fs13{font-size:36px} .fs14{font-size:38px} .fs15{font-size:40px} .fs16{font-size:42px} .fs17{font-size:44px} .fs18{font-size:46px} .fs19{font-size:48px} .fs20{font-size:50px}
 
-.fs1{font-size:12px}.fs2{font-size:14px}.fs3{font-size:16px}.fs4{font-size:18px}.fs5{font-size:20px}.fs6{font-size:22px}.fs7{font-size:24px}.fs8{font-size:26px}.fs9{font-size:28px}.fs10{font-size:30px}
+
+.active-fs1:active{font-size:10px}.active-fs2:active{font-size:13px}.active-fs3:active{font-size:15px}.active-fs4:active{font-size:18px}.active-fs5:active{font-size:20px}.active-fs6:active{font-size:22px}.active-fs7:active{font-size:24px}.active-fs8:active{font-size:26px}.active-fs9:active{font-size:28px}.active-fs10:active{font-size:30px}
+.active-fs11:active{font-size:32px} .active-fs12:active{font-size:34px} .active-fs13:active{font-size:36px} .active-fs14:active{font-size:38px} .active-fs15:active{font-size:40px} .active-fs16:active{font-size:42px} .active-fs17:active{font-size:44px} .active-fs18:active{font-size:46px} .active-fs19:active{font-size:48px} .active-fs20:active{font-size:50px}
+
+.hover-fs1:hover{font-size:10px}.hover-fs2:hover{font-size:13px}.hover-fs3:hover{font-size:15px}.hover-fs4:hover{font-size:18px}.hover-fs5:hover{font-size:20px}.hover-fs6:hover{font-size:22px}.hover-fs7:hover{font-size:24px}.hover-fs8:hover{font-size:26px}.hover-fs9:hover{font-size:28px}.hover-fs10:hover{font-size:30px}
+.hover-fs11:hover{font-size:32px} .hover-fs12:hover{font-size:34px} .hover-fs13:hover{font-size:36px} .hover-fs14:hover{font-size:38px} .hover-fs15:hover{font-size:40px} .hover-fs16:hover{font-size:42px} .hover-fs17:hover{font-size:44px} .hover-fs18:hover{font-size:46px} .hover-fs19:hover{font-size:48px} .hover-fs20:hover{font-size:50px}
+
+.focus-fs1:focus{font-size:10px}.focus-fs2:focus{font-size:13px}.focus-fs3:focus{font-size:15px}.focus-fs4:focus{font-size:18px}.focus-fs5:focus{font-size:20px}.focus-fs6:focus{font-size:22px}.focus-fs7:focus{font-size:24px}.focus-fs8:focus{font-size:26px}.focus-fs9:focus{font-size:28px}.focus-fs10:focus{font-size:30px}
+.focus-fs11:focus{font-size:32px} .focus-fs12:focus{font-size:34px} .focus-fs13:focus{font-size:36px} .focus-fs14:focus{font-size:38px} .focus-fs15:focus{font-size:40px} .focus-fs16:focus{font-size:42px} .focus-fs17:focus{font-size:44px} .focus-fs18:focus{font-size:46px} .focus-fs19:focus{font-size:48px} .focus-fs20:focus{font-size:50px}
 
 
-.active-fs1:active{font-size:12px}.active-fs2:active{font-size:14px}.active-fs3:active{font-size:16px}.active-fs4:active{font-size:18px}.active-fs5:active{font-size:20px}.active-fs6:active{font-size:22px}.active-fs7:active{font-size:24px}.active-fs8:active{font-size:26px}.active-fs9:active{font-size:28px}.active-fs10:active{font-size:30px}
-
-.hover-fs1:hover{font-size:12px}.hover-fs2:hover{font-size:14px}.hover-fs3:hover{font-size:16px}.hover-fs4:hover{font-size:18px}.hover-fs5:hover{font-size:20px}.hover-fs6:hover{font-size:22px}.hover-fs7:hover{font-size:24px}.hover-fs8:hover{font-size:26px}.hover-fs9:hover{font-size:28px}.hover-fs10:hover{font-size:30px}
-
-.focus-fs1:focus{font-size:12px}.focus-fs2:focus{font-size:14px}.focus-fs3:focus{font-size:16px}.focus-fs4:focus{font-size:18px}.focus-fs5:focus{font-size:20px}.focus-fs6:focus{font-size:22px}.focus-fs7:focus{font-size:24px}.focus-fs8:focus{font-size:26px}.focus-fs9:focus{font-size:28px}.focus-fs10:focus{font-size:30px}
 
 
 
