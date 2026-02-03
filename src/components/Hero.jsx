@@ -46,8 +46,7 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
           </div>
           {/*profile decription*/}
           <div className="fs2 text-center text-sm-start mx3 mx-sm-auto my3">
-           I'm Mubarak Owosheni, 18 years old, with 3+ years of experience. With expertise in making modern web apps.
-          </div>
+           I'm Mubarak Owosheni</div>
          <div  className="flex content-center content-start-sm my3" download>
           <a href="files/Mubarak_Resume.pdf" className="bg-blue b b-trans hover-bg-trans hover-b-blue hover-text-blue rounded-pill w30 fs2 py2 text-center text-snow fw-semibold opacity100 cursor-pointer link">Resume</a>
 
