@@ -9,15 +9,7 @@
    "image": "img/youtube.jpg"
   },  
   {
-   "id": "2",
-   "title": "DELISH",
-   "description": "I built this website that helps people with recipes of different kinds of food from different country",
-   "stack": "Angular + Boostrap + Typescript + MkCSS + Git",
-   "link": "https://delish-pi.vercel.app/",
-   "image": "img/delish.jpg"
-  },
-  {
-   "id": "3", 
+   "id": "2", 
    "title": "MKCSS",
    "description": "A lightweight and customizable CSS framework designed to help developers build fast, responsive and beautiful websites.",
    "stack": "CSS + JavaScript + Git",
@@ -25,7 +17,7 @@
    "image": "img/mkcss.jpg"
   },  
   {
-   "id": "4",
+   "id": "3",
    "title": "MY PORTFOLIO",
    "description": "This is my portfolio. It's designed to be responsive and visually appealing, providing a great user experience across all devices.",
    "stack": "React + CSS + Boostrap + JavaScript + MkCSS + Git",

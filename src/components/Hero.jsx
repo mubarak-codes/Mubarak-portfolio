@@ -51,8 +51,8 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
             </a>
           </div>
          <div  className="flex content-center content-start-sm  gap5" download>
-          <a href="#contact" className="bg-green px3 pb1 text-snow link pt2 hover-fade active-bg-trans b b-trans active-b-green cursor-pointer">Let's Chat</a>
-          <a href="files/Mubarak_Resume.pdf" className="b b-green hover-fade active-bg-green active-text-snow px2 b2 w30 fs2 py2 text-center text-snow fw-semibold opacity100 cursor-pointer link">Resume</a>
+          <a href="#contact" className="bg-green px3 pb1 text-snow link pt2 hover-fade active-bg-trans b b-trans active-b-green active-text-green cursor-pointer">Let's Chat</a>
+          <a href="files/Mubarak_Resume.pdf" className={`b b-green hover-fade active-bg-green active-text-snow px2 b2 w30 fs2 py2 text-center text-green fw-semibold opacity100 cursor-pointer link`}>Resume</a>
 
          </div>
         </div>

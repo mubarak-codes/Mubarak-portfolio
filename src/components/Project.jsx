@@ -10,7 +10,7 @@ const Project = ({bg, text,})=>{
  return(
   <>
    <section className="mt12 px5 px10-sm px19-md" id="projects">
-    <h2 className="text-center ff-rubik mb8 fs8">PROJECT</h2>
+    <h2 className="text-center mb8 fs9 txt-bolder">Project</h2>
     <div className=" gap-4 d-grid gr2-sm">
      {projects.map((project)=>(
       <div className={`b b-gray50 rounded-4 flex p5  ${text}`} key={project.id}>
