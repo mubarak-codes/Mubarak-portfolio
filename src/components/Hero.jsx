@@ -31,8 +31,8 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
           <h2 className="fs8">
            I'm Mubarak
           </h2>
-          <div className="text-uppercase fw-bold flex content-center content-start-sm p1 ">
-           <div className="">
+          <div className="text-uppercase fw-bold flex content-center content-start-sm p1 txt-bolder">
+           <div className="txt-bolder">
             Software Developer
            </div>
           </div>
@@ -51,8 +51,8 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
             </a>
           </div>
          <div  className="flex content-center content-start-sm  gap5" download>
-          <a href="#contact" className="bg-green px3 pb1 text-snow link pt2">Let's Chat</a>
-          <a href="files/Mubarak_Resume.pdf" className="b b-green hover-bg-trans hover-b-blue hover-text-blue px2 b2 w30 fs2 py2 text-center text-snow fw-semibold opacity100 cursor-pointer link">Resume</a>
+          <a href="#contact" className="bg-green px3 pb1 text-snow link pt2 hover-fade active-bg-trans b b-trans active-b-green cursor-pointer">Let's Chat</a>
+          <a href="files/Mubarak_Resume.pdf" className="b b-green hover-fade active-bg-green active-text-snow px2 b2 w30 fs2 py2 text-center text-snow fw-semibold opacity100 cursor-pointer link">Resume</a>
 
          </div>
         </div>
