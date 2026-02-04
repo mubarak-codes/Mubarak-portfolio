@@ -31,8 +31,8 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
           <h2 className="fs8">
            I'm Mubarak
           </h2>
-          <div className="text-uppercase fw-bold flex content-center content-start-sm p1 txt-bolder">
-           <div className="txt-bolder">
+          <div className="text-uppercase flex content-center content-start-sm p1 txt-bolder">
+           <div className="txt-bolder fs5">
             Software Developer
            </div>
           </div>
