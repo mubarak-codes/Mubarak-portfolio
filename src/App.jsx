@@ -24,8 +24,10 @@ let [bg, setBg] = usePersistState('theme', 'bg-white')
   <>
    <Navbar text={text} bg={bg} />
    <Hero bg={bg} text={text} icon={icon} setText={setText} setBg={setBg} setIcon={setIcon} />
-   <About />
-   <Services />
+   <div className="flex d-col d-row-reverse-sm w100 gap10">
+    <About />
+    <Services />
+   </div>
    <Project bg={bg} text={text} />
    <Experience />
    <Skills />
