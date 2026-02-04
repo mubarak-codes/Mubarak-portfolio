@@ -24,13 +24,17 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
         </div>
         {/*profile info*/}
         <div className="profile-info justify-content-center row py-3 justify-content-sm-start me8-sm">
-          <h1 className="text-center text-sm-start fw-bolder fs10 mb4 ff-rubik">
+          <h1 className="text-center text-sm-start fw-bolder fs9 mb4 ">
            
-            MUBARAK <br className="d-inline d-sm-none"/> OWOSHENI
+            Hello!
           </h1>
-          <h2 className="text-uppercase text-sm-start text-center fw-bolder fs3 mb3 ff-montserrat-bold opacity75">
-            Software Developer
+          <h2 className="fs8">
+           I'm Mubarak
           </h2>
+          <div className="text-uppercase bg-green fw-bold me20">
+           Software Developer
+          </div>
+
           {/*social icons*/}
           <div className={`text-center text-sm-start fs6 ${text}`}>
             <a href="https://x.com/mubarak_codes" target="_blank">
@@ -44,11 +48,9 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
               <i className={`fa-brands fa-github px2 ${text} click-fade click-grow`}></i>
             </a>
           </div>
-          {/*profile decription*/}
-          <div className="fs2 text-center text-sm-start mx3 mx-sm-auto my3">
-           I'm Mubarak Owosheni</div>
          <div  className="flex content-center content-start-sm my3" download>
-          <a href="files/Mubarak_Resume.pdf" className="bg-blue b b-trans hover-bg-trans hover-b-blue hover-text-blue rounded-pill w30 fs2 py2 text-center text-snow fw-semibold opacity100 cursor-pointer link">Resume</a>
+          <a href="#contact" className="bg-green">Let's Chat</a>
+          <a href="files/Mubarak_Resume.pdf" className="b b-green hover-bg-trans hover-b-blue hover-text-blue rounded-pill w30 fs2 py2 text-center text-snow fw-semibold opacity100 cursor-pointer link">Resume</a>
 
          </div>
         </div>

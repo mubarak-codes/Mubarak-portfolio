@@ -1,4 +1,6 @@
-.relative{position:relative}.absolute{position:absolute}.fixed{position : fixed}  .static{position:static} .sticky{position: sticky;} .overflow-y-auto{overflow-y: auto}
+.relative{position:relative}.absolute{position:absolute}.fixed{position : fixed}  .static{position:static} .sticky{position: sticky;} 
+
+.overflow-y-auto{overflow-y: auto}.overflow-x-auto{overflow-x: auto}
 
 
 @media (max-width: 580px) {
