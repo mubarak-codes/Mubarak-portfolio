@@ -7,7 +7,7 @@ const Skills = ()=>{
   <>
    <section className=" mt12 px5 px10-sm px19-md">
     <h2 className="fs9 mb8 text-center txt-bolder">Skills</h2>
-    <div className="d-grid  ff-montserrat gr3 gr4-sm gr5-lg txt-semibold gap-3">
+    <div className="d-grid  ff-montserrat gr2 gr3-sm  gr4-md gr5-lg txt-semibold gap-3">
      <div className="py4 bg-gray10 px3 hover-grow hover-opacity75 transit"><i className="fab fa-html5 me3 fs9 vertical-center"></i>HTML</div>
      <div className=" py4 bg-gray10 px3 hover-grow hover-opacity75 transit"><i className="fab fa-css3-alt me3 fs9 vertical-center"></i>CSS</div>    
      <div className=" py4 bg-gray10 px3 hover-grow hover-opacity75 transit"><i className="fab fa-js me3 fs9 vertical-center"></i>JavaScript</div>
