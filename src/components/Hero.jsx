@@ -7,9 +7,9 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
   return(
     <>
      <section className=" mt16 px5 px10-sm px19-md"> 
-      <section className=" container-fluid flex-sm mt4 items-center d-row-reverse pt4">
+      <section className=" flex-sm mt4 items-center d-row-reverse pt4">
         <div className="profile flex items-start content-center py4">
-         <img src="img/MubarakAvatar.jpg" className="rounded-circle w70 -me5-sm  w90-sm w60-md w70-lg ms-sm-auto" style={{marginLeft:'27px'}}/>
+         <img src="img/MubarakResume.png" className=" w50 w60-sm -me5-sm  ms-sm-auto" style={{marginLeft:'27px'}}/>
          <i className={`bi ${icon} theme-icon fs8 click-fade click-grow`} ref={themeRef} style={{marginRight:'0px',}} onClick={()=>{
           setBg((prev)=>{
            if(prev === 'bg-dark'){
@@ -23,7 +23,7 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
          }}></i>
         </div>
         {/*profile info*/}
-        <div className="profile-info justify-content-center row py-3 justify-content-sm-start me8-sm gap1">
+        <div className=" justify-content-center row py-3 justify-content-sm-start gap1">
           <h1 className="text-center text-sm-start fw-bolder fs9">
            
             Hello!
@@ -32,7 +32,7 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
            I'm Mubarak
           </h2>
           <div className="text-uppercase flex content-center content-start-sm p1 txt-bolder">
-           <div className="txt-bolder fs5">
+           <div className="txt-bolder fs5 nowrap">
             Software Developer
            </div>
           </div>
