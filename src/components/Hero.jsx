@@ -7,9 +7,9 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
   return(
     <>
      <section className=" mt16 px5 px10-sm px19-md"> 
-      <section className=" flex-sm mt4 items-center d-row-reverse pt4">
+      <section className=" flex mt4 items-center d-row-reverse-sm d-col-reverse pt4">
         <div className="profile flex items-start content-center py4">
-         <img src="img/MubarakResume.png" className=" w50 w60-sm -me5-sm  ms-sm-auto" style={{marginLeft:'27px'}}/>
+         <img src="img/MubarakResume.png" className=" w80 w60-sm -me5-sm  ms-sm-auto mt5" style={{marginLeft:'27px'}}/>
          <i className={`bi ${icon} theme-icon fs8 click-fade click-grow`} ref={themeRef} style={{marginRight:'0px',}} onClick={()=>{
           setBg((prev)=>{
            if(prev === 'bg-dark'){
@@ -23,7 +23,7 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
          }}></i>
         </div>
         {/*profile info*/}
-        <div className=" justify-content-center row py-3 justify-content-sm-start gap1">
+        <div className=" content-center flex py-3 content-start-sm gap1 d-col items-center">
           <h1 className="text-center text-sm-start fw-bolder fs9">
            
             Hello!
