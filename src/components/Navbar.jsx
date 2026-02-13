@@ -8,10 +8,10 @@ const Navbar = ({text, bg})=>{
     <nav className={`navbar navbar-expand-sm ${bg} fixed-top py3 left0  right0 top0 `}>
      <div className=" mx5 px9-sm px18-md py3 py1-sm flex items-center content-between w100 relative">
       {/*logo*/}
-      <div className={`fw-bolder fs5 ${text}`}>
+      <div className={`fw-bolder fs5 ${text} ff-montserrat-bold`}>
           Mubarak Owosheni
       </div>
-      <i role="button" aria-controls="offcanvasExample" data-bs-target="#navbar" data-bs-toggle="collapse" className="fa fa-bars d-inline d-sm-none fs6 ms-auto absolute-xs right0"></i>
+      <i role="button" aria-controls="offcanvasExample" data-bs-target="#navbar" data-bs-toggle="collapse" className="fa fa-bars d-none fs6 ms-auto absolute-xs right0"></i>
 
       <div id="navbar" className="collapse navbar-collapse">
        <ul className={`flex fs2 gap3 ${bg} navbar-nav py3 ms-auto absolute-xs left0 top50px right0`}>

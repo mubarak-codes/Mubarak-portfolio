@@ -32,7 +32,7 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
            I'm Mubarak
           </h2>
           <div className="text-uppercase flex content-center content-start-sm p1 txt-bolder">
-           <div className="txt-bolder fs5 nowrap">
+           <div className="txt-bolder fs5 nowrap ff-montserrat-bold">
             Software Developer
            </div>
           </div>
