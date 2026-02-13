@@ -23,7 +23,7 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
          }}></i>
         </div>
         {/*profile info*/}
-        <div className=" content-center flex py-3 content-start-sm gap1 d-col items-center">
+        <div className=" content-center flex py-3 content-start-sm gap1 d-col ">
           <h1 className="text-center text-sm-start fw-bolder fs9">
            
             Hello!
