@@ -28,7 +28,7 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
            
             Hello!
           </h1>
-          <h2 className="fs8">
+          <h2 className="fs8 text-center text-sm-start">
            I'm Mubarak
           </h2>
           <div className="text-uppercase flex content-center content-start-sm p1 txt-bolder">
