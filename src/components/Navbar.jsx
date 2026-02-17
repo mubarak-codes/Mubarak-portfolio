@@ -1,6 +1,8 @@
+import {useState, useEffect, useRef} from 'react'
 
 
-const Navbar = ({text, bg})=>{
+const Navbar = ({text, bg, icon, setText, setBg, setIcon})=>{
+ const themeRef = useRef();
 
  return(
   <>
@@ -13,16 +15,29 @@ const Navbar = ({text, bg})=>{
       </div>
       <i role="button" aria-controls="offcanvasExample" data-bs-target="#navbar" data-bs-toggle="collapse" className="fa fa-bars d-none fs6 ms-auto absolute-xs right0"></i>
 
-      <div id="navbar" className="collapse navbar-collapse">
-       <ul className={`flex fs2 gap3 ${bg} navbar-nav py3 ms-auto absolute-xs left0 top50px right0`}>
-        <li className="nav-item cursor-pointer hover-fade"><a href="#about" className={`link-inherit`}>About</a></li>
-        <li className="nav-item cursor-pointer hover-fade"><a href="#projects" className={`link-inherit`}>Projects</a></li>
-        <li className="nav-item cursor-pointer hover-fade"><a href="#experience" className={`link-inherit`}>Experience</a></li>
-        <li className="nav-item cursor-pointer hover-fade"><a href="#contact" className={`link-inherit`}>Contact</a></li>
-        <li className="nav-item cursor-pointer hover-fade"><a href="#services" className={`link-inherit`}>Services</a></li>
+      <div id="navbar" className=" navbar-collapse hidden sm:block">
+       <ul className={` fs2 gap3 ${bg} navbar-nav py3 ms-auto absolute-xs left0 top50px right0 hidden mr-10`}>
+        <li className="nav-item cursor-pointer hover-fade hidden sm:block"><a href="#about" className={`link-inherit`}>About</a></li>
+        <li className="nav-item cursor-pointer hover-fade hidden sm:block"><a href="#projects" className={`link-inherit`}>Projects</a></li>
+        <li className="nav-item cursor-pointer hover-fade hidden sm:block"><a href="#experience" className={`link-inherit`}>Experience</a></li>
+        <li className="nav-item cursor-pointer hover-fade hidden sm:block"><a href="#contact" className={`link-inherit`}>Contact</a></li>
+        <li className="nav-item cursor-pointer hover-fade hidden sm:block"><a href="#services" className={`link-inherit`}>Services</a></li>
 
        </ul> 
+  
       </div>
+<i className={`bi ${icon} theme-icon click-fade click-grow ml-auto`} ref={themeRef} style={{marginRight:'0px',}} onClick={()=>{
+          setBg((prev)=>{
+           if(prev === 'bg-black'){
+            return 'bg-white'
+           } else{
+            return 'bg-black'
+           }
+          })
+          setText(prev=> prev === 'text-black'? 'text-white': 'text-black');
+          setIcon(prev=> prev === 'bi-sun-fill'? 'bi-moon-fill': 'bi-sun-fill')
+         }}></i>
+
      </div>
     </nav>
    </section>

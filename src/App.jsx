@@ -13,8 +13,8 @@ import Services from './components/Services'
 
 
 function App() {
-let [bg, setBg] = usePersistState('theme', 'bg-white')
- let [text, setText] = usePersistState('textTheme','text-black');
+let [bg, setBg] = usePersistState('theme', 'bg-dark')
+ let [text, setText] = usePersistState('textTheme','text-white');
  const [icon, setIcon] = usePersistState('themeIcon', 'bi-sun-fill')
  
   document.body.className = `${bg} ${text}`;
@@ -22,8 +22,8 @@ let [bg, setBg] = usePersistState('theme', 'bg-white')
   
  return(
   <>
-   <Navbar text={text} bg={bg} />
-   <Hero bg={bg} text={text} icon={icon} setText={setText} setBg={setBg} setIcon={setIcon} />
+   <Navbar text={text} bg={bg} icon={icon} setText={setText} setBg={setBg} setIcon={setIcon}/>
+   <Hero bg={bg} text={text}/>
    <div className="flex-sm d-col d-row-reverse-sm w100 gap5">
     <About className="" />
     <Services className="" />

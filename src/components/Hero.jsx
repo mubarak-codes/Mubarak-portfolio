@@ -1,8 +1,7 @@
 import {useState, useEffect, useRef} from 'react'
 
 
-const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
- const themeRef = useRef();
+const Hero = ({bg, text})=>{
  
   return(
     <>
@@ -10,18 +9,7 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
       <section className=" flex mt4 items-center d-row-reverse-sm d-col-reverse pt4">
         <div className="profile flex items-start content-center py4">
          <img src="img/MubarakResume.png" className=" w80 w60-sm -me5-sm  ms-sm-auto mt5" style={{marginLeft:'27px'}}/>
-         <i className={`bi ${icon} theme-icon fs8 click-fade click-grow`} ref={themeRef} style={{marginRight:'0px',}} onClick={()=>{
-          setBg((prev)=>{
-           if(prev === 'bg-dark'){
-            return 'bg-white'
-           } else{
-            return 'bg-dark'
-           }
-          })
-          setText(prev=> prev === 'text-black'? 'text-white': 'text-black');
-          setIcon(prev=> prev === 'bi-sun-fill'? 'bi-moon-fill': 'bi-sun-fill')
-         }}></i>
-        </div>
+                 </div>
         {/*profile info*/}
         <div className=" content-center flex py-3 content-start-sm gap1 d-col ">
           <h1 className="text-center text-sm-start fw-bolder fs9">
@@ -31,7 +19,7 @@ const Hero = ({bg, text, icon, setBg, setIcon, setText})=>{
           <h2 className="fs8 text-center text-sm-start">
            I'm Mubarak
           </h2>
-          <div className="text-uppercase flex content-center content-start-sm p1 txt-bolder">
+          <div className="flex content-center content-start-sm p1 txt-bolder">
            <div className="txt-bolder fs10 nowrap ff-montserrat-bold">
             Software Developer
            </div>
