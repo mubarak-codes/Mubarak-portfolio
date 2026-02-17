@@ -12,35 +12,31 @@ const Hero = ({bg, text})=>{
                  </div>
         {/*profile info*/}
         <div className=" content-center flex py-3 content-start-sm gap1 d-col ">
-          <h1 className="text-center text-sm-start fw-bolder fs9">
-           
-            Hello!
-          </h1>
-          <h2 className="fs8 text-center text-sm-start">
-           I'm Mubarak
-          </h2>
-          <div className="flex content-center content-start-sm p1 txt-bolder">
-           <div className="txt-bolder fs10 nowrap ff-montserrat-bold">
+          <div className="flex content-center content-start-sm p1 flex-col gap3">
+           <div className="txt-bolder text-3xl nowrap ff-montserrat-bold text-center sm:text-start">
             Software Developer
            </div>
+   <div className="text-center sm:text-start opacity-75">
+    Hi, I'm <span className="font-black opacity-100"> Mubarak Owosheni</span>. I specialize in building dynamic, scalable, and high- performnance web and mobile applications that deliver seamless user experiences with a strong emphasis on functionality, adaptability, and user engagement.
+   </div>
           </div>
 
           {/*social icons*/}
-          <div className={`text-center text-sm-start fs6 ${text} mb3`}>
+          <div className={`text-center text-sm-start text-sm ${text} mb3 flex gap-2 justify-center items-center opacity-75`}>
             <a href="https://x.com/mubarak_codes" target="_blank">
-              <i className={`bi bi-twitter-x px2 ${text} click-grow click-fade`}></i>
+               <i className={`bi bi-twitter-x ${text} click-grow click-fade bg-gray-500/25 p-2 rounded-full`}></i>
             </a>
             <a href="https://www.linkedin.com/in/mubarak-owosheni-6768b8361" target="_blank">
-              <i className={`fa-brands fa-linkedin px2 ${text} click-grow click-fade`}></i>
+              <i className={`fa-brands fa-linkedin bg-gray-500/25 p-2 rounded-full ${text} click-grow click-fade`}></i>
             </a>
 
             <a href="https://github.com/mubarak-codes" target="_blank">
-              <i className={`fa-brands fa-github px2 ${text} click-fade click-grow`}></i>
+              <i className={`fa-brands fa-github bg-gray-500/25 p-2 rounded-full ${text} click-fade click-grow`}></i>
             </a>
           </div>
-         <div  className="flex content-center content-start-sm  gap3" download>
-          <a href="#contact" className="bg-green px3 pb1 text-snow link pt2 hover-fade active-bg-trans b b-trans active-b-green active-text-green cursor-pointer">Let's Chat</a>
-          <a href="files/Mubarak_Resume.pdf" className={`b b-green hover-fade active-bg-green active-text-snow px3 b2 fs2 py2 text-center text-green fw-semibold opacity100 cursor-pointer link`}>Resume</a>
+         <div  className="flex content-center content-start-sm  gap-2" download>
+          <a href="#contact" className={`px-4 py-2 no-underline text-inherit cursor-pointer link bg-gray-500/25 rounded-sm opacity-75`}>Let's Chat</a>
+          <a href="files/Mubarak_Resume.pdf" className={`bg-gray-500/25 px-4 py-2 text-inherit rounded-sm opacity-75 cursor-pointer link`}>Resume</a>
 
          </div>
         </div>
