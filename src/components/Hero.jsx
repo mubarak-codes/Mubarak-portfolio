@@ -11,17 +11,17 @@ const Hero = ({bg, text})=>{
          <img src="img/MubarakResume.png" className=" w80 w60-sm -me5-sm  ms-sm-auto mt5"/>
                  </div>
         {/*profile info*/}
-        <div className=" content-center flex py-3 content-start-sm gap1 d-col items-start-sm">
+        <div className=" content-center flex py-3 content-start-sm gap1 d-col items-start-sm w-screen">
           <div className="flex justify-center sm:justify-start p1 flex-col gap3">
-           <div className="txt-bolder text-3xl nowrap ff-montserrat-bold text-center sm:text-start">
+           <div className="txt-bolder text-3xl nowrap ff-montserrat-bold text-center sm:text-start opacity-75">
             Software Developer
            </div>
              </div>
-<div className="text-center sm:text-left opacity-75 sm:hidden">
-    Hi, I'm Mubarak Owosheni. I specialize in building dynamic, scalable, and high- performnance web and mobile applications that deliver seamless user experiences with a strong emphasis on functionality, adaptability, and user engagement.
+<div className="text-center sm:text-left opacity-75 sm:hidden px-3">
+    Hi, I'm Mubarak Owosheni. I specialize in building dynamic, scalable, and high- performnance web and mobile applications that deliver seamless user experiences.
    </div>
-<div className="text-start opacity-75 hidden sm:block">
-    Hi, I'm Mubarak Owosheni. I specialize in building dynamic, scalable, and high- performnance web and mobile applications that deliver seamless user experiences with a strong emphasis on functionality, adaptability, and user engagement.
+<div className="text-start opacity-75 hidden sm:block flex-2">
+    Hi, I'm Mubarak Owosheni. I specialize in building dynamic, scalable, and high- performnance web and mobile applications that deliver seamless user experiences.
    </div>
 
           {/*social icons*/}
