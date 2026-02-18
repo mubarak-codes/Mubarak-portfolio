@@ -8,18 +8,21 @@ const Hero = ({bg, text})=>{
      <section className=" mt16 px5 px10-sm px19-md"> 
       <section className=" flex mt4 items-center d-row-reverse-sm d-col-reverse pt4">
         <div className="profile flex items-start content-center py4">
-         <img src="img/MubarakResume.png" className=" w50 w40-sm -me5-sm  ms-sm-auto mt5"/>
+         <img src="img/MubarakResume.png" className=" w80 w60-sm -me5-sm  ms-sm-auto mt5"/>
                  </div>
         {/*profile info*/}
-        <div className=" content-center flex py-3 content-start-sm gap1 d-col ">
-          <div className="flex content-center content-start-sm p1 flex-col gap3">
+        <div className=" content-center flex py-3 content-start-sm gap1 d-col items-start-sm">
+          <div className="flex justify-center sm:justify-start p1 flex-col gap3">
            <div className="txt-bolder text-3xl nowrap ff-montserrat-bold text-center sm:text-start">
             Software Developer
            </div>
-   <div className="flex justify-center sm:justify-start opacity-75">
+             </div>
+<div className="text-center sm:text-left opacity-75 sm:hidden">
     Hi, I'm Mubarak Owosheni. I specialize in building dynamic, scalable, and high- performnance web and mobile applications that deliver seamless user experiences with a strong emphasis on functionality, adaptability, and user engagement.
    </div>
-          </div>
+<div className="text-start opacity-75 hidden sm:block">
+    Hi, I'm Mubarak Owosheni. I specialize in building dynamic, scalable, and high- performnance web and mobile applications that deliver seamless user experiences with a strong emphasis on functionality, adaptability, and user engagement.
+   </div>
 
           {/*social icons*/}
           <div className={`text-center text-sm-start text-sm ${text} mb3 flex gap-2 justify-center items-center opacity-75 sm:justify-start`}>
