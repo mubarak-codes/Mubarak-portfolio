@@ -13,7 +13,7 @@ import Services from './components/Services'
 
 
 function App() {
-let [bg, setBg] = usePersistState('theme', 'bg-dark')
+let [bg, setBg] = usePersistState('theme', 'bg-black')
  let [text, setText] = usePersistState('textTheme','text-white');
  const [icon, setIcon] = usePersistState('themeIcon', 'bi-sun-fill')
  
