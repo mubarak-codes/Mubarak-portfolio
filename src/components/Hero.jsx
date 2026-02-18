@@ -27,19 +27,19 @@ const Hero = ({bg, text})=>{
           {/*social icons*/}
           <div className={`text-center text-sm-start text-sm ${text} mb3 flex gap-2 justify-center items-center opacity-75 sm:justify-start`}>
             <a href="https://x.com/mubarak_codes" target="_blank">
-               <i className={`bi bi-twitter-x ${text} click-fade bg-gray-500/25 p-2 rounded-full`}></i>
+               <i className={`bi bi-twitter-x ${text} click-fade bg-gray-500/20 p-2 rounded-full`}></i>
             </a>
             <a href="https://www.linkedin.com/in/mubarak-owosheni-6768b8361" target="_blank">
-              <i className={`fa-brands fa-linkedin bg-gray-500/25 p-2 rounded-full ${text} click-fade`}></i>
+              <i className={`fa-brands fa-linkedin bg-gray-500/20 p-2 rounded-full ${text} click-fade`}></i>
             </a>
 
             <a href="https://github.com/mubarak-codes" target="_blank">
-              <i className={`fa-brands fa-github bg-gray-500/25 p-2 rounded-full ${text} click-grow`}></i>
+              <i className={`fa-brands fa-github bg-gray-500/20 p-2 rounded-full ${text} click-grow`}></i>
             </a>
           </div>
          <div  className="flex content-center content-start-sm  gap-2" download>
-          <a href="#contact" className={`px-4 py-2 no-underline text-inherit cursor-pointer link bg-gray-500/25 rounded-sm opacity-75 click-fade`}>Let's Chat</a>
-          <a href="files/Mubarak_Resume.pdf" className={`bg-gray-500/25 px-4 py-2 text-inherit rounded-sm opacity-75 cursor-pointer link click-fade`}>Resume</a>
+          <a href="#contact" className={`px-4 py-2 no-underline text-inherit cursor-pointer link bg-gray-500/20 rounded-sm opacity-75 click-fade`}>Let's Chat</a>
+          <a href="files/Mubarak_Resume.pdf" className={`bg-gray-500/20 px-4 py-2 text-inherit rounded-sm opacity-75 cursor-pointer link click-fade`}>Resume</a>
 
          </div>
         </div>
