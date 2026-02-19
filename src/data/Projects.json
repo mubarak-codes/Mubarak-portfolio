@@ -2,7 +2,7 @@
  [
   {
    "id": "1",
-   "title": "YOUTUBE CLONE",
+   "title": "YouTube Clone",
    "description": "A front-end clone of YouTube, focusing on recreating the platform's user interface.",
    "stack": "HTML + CSS + Boostrap + JavaScript + Git",
    "link": "https://you-tube-clone-lilac-alpha.vercel.app/",
@@ -18,7 +18,7 @@
   },  
   {
    "id": "3",
-   "title": "MY PORTFOLIO",
+   "title": "My Portfolio",
    "description": "This is my portfolio. It's designed to be responsive and visually appealing, providing a great user experience across all devices.",
    "stack": "React + CSS + Boostrap + JavaScript + MkCSS + Git",
    "link": "https://mubarak-portfolio-inky.vercel.app",

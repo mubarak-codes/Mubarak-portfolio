@@ -10,17 +10,18 @@ const Project = ({bg, text,})=>{
  return(
   <>
    <section className="mt12 px5 px10-sm px19-md" id="projects">
-    <h2 className="text-center mb-3 text-2xl opacity-75 txt-bolder ff-montserrat-bold">My Projects</h2>
+    <h2 className="text-center mb-2 text-2xl opacity-75 txt-bolder ff-montserrat-bold">My Projects</h2>
     <div className=" gap-4 d-grid gr2-sm">
      {projects.map((project)=>(
       <div className={`flex p5  ${text} d-col`} key={project.id}>
-         <img src={project.image} className="w100 border obj-cover items-start mb5 p-2" />
-        <h4 className="ff-montserrat-bold mb2 fs3">{project.title}</h4>
-        <div className="mb2 fs1 opacity75">{project.description.substring(0, 80)}...</div>
+         <img src={project.image} className="w100 border-1 border-gray-400/40 obj-cover items-start mb5 p-2" />
+        <h4 className=" mb2 font-black opacity-75 text-2xl">{project.title}</h4>
+        <div className="mb2 text-sm opacity-50">{project.description.substring(0, 80)}...</div>
       <div>
-        <a href={project.link} className={`fs2 text-green b b-green opacity75 click-fade click-grow link cursor-pointer p1 px2 br2 me20`} target="_blank">Visit Website <i className="bi bi-arrow-up-right vertical-center"></i> </a></div> <hr/>
-        <div className="mt2 fs1 opacity75  ">{project.stack}</div>
-      </div>
+      <div className="my2 mb5 fs1 opacity75  ">{project.stack}</div>
+
+        <a href={project.link} className={``} target="_blank">Visit Website <i className="bi bi-arrow-up-right vertical-center"></i> </a></div>
+           </div>
      ))}
     </div>
    </section>
