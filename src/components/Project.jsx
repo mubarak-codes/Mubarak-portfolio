@@ -20,7 +20,11 @@ const Project = ({bg, text,})=>{
       <div>
       <div className="my2 mb5 fs1 opacity75  ">{project.stack}</div>
 
-        <a href={project.link} className={``} target="_blank">Visit Website <i className="bi bi-arrow-up-right vertical-center"></i> </a></div>
+        <a href={project.link} className={`link bg-gray-500/20 click-fade link-inherit p-2 rounded-sm cursor-pointer opacity-75`} target="_blank">Visit Website <i className="bi bi-arrow-up-right vertical-center"></i> </a>
+      <a href={project.github} target="_blank">
+              <i className={`fa-brands fa-github bg-gray-500/20 p-2 rounded-full ${text} click-grow ml-3 opacity-75`}></i>
+            </a>
+</div>
            </div>
      ))}
     </div>
